@@ -7,6 +7,7 @@ import { Hero } from "@/components/maison/Hero";
 import { Marquee } from "@/components/maison/Marquee";
 import { Manifesto } from "@/components/maison/Manifesto";
 import { Collection } from "@/components/maison/Collection";
+import { ImmersiveScene } from "@/components/maison/ImmersiveScene";
 import { Atelier } from "@/components/maison/Atelier";
 import { Editorial } from "@/components/maison/Editorial";
 import { Appointment } from "@/components/maison/Appointment";
@@ -27,6 +28,7 @@ function Index() {
         <Hero />
         <Marquee />
         <Manifesto />
+        <ImmersiveScene />
         <Collection />
         <Atelier />
         <Editorial />
