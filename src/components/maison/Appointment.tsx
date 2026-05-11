@@ -41,9 +41,9 @@ export function Appointment() {
           <p className="mt-10 text-[11px] tracking-[0.3em] uppercase text-primary/80">Appointments are available for selected clients only.</p>
 
           <div className="mt-14 space-y-4 text-sm text-ivory/55">
-            <div><span className="text-ivory/40 mr-3 text-[11px] tracking-[0.3em] uppercase">Atelier</span> 14 Rue du Nord, Geneva</div>
-            <div><span className="text-ivory/40 mr-3 text-[11px] tracking-[0.3em] uppercase">Hours</span> Tuesday — Saturday, by appointment</div>
-            <div><span className="text-ivory/40 mr-3 text-[11px] tracking-[0.3em] uppercase">Concierge</span> private@maisonnord.com</div>
+            <div><span className="text-ivory/40 mr-3 text-[11px] tracking-[0.3em] uppercase">Atelier</span><span>14 Rue du Nord, Geneva</span></div>
+            <div><span className="text-ivory/40 mr-3 text-[11px] tracking-[0.3em] uppercase">Hours</span><span>Tuesday — Saturday, by appointment</span></div>
+            <div><span className="text-ivory/40 mr-3 text-[11px] tracking-[0.3em] uppercase">Concierge</span><span>private@maisonnord.com</span></div>
           </div>
         </div>
 
