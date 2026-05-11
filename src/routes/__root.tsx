@@ -75,11 +75,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Maison Nord — Winter Tailoring for the Quietly Distinguished" },
       { name: "description", content: "Maison Nord crafts tailored winter coats and outerwear for private clients. Cashmere, wool, and timeless presence — by appointment." },
       { name: "author", content: "Maison Nord" },
-      { property: "og:title", content: "Maison Nord — Winter Tailoring" },
-      { property: "og:description", content: "Tailored outerwear, crafted for cold cities, private evenings, and timeless presence." },
+      { property: "og:title", content: "Maison Nord — Winter Tailoring for the Quietly Distinguished" },
+      { property: "og:description", content: "Maison Nord crafts tailored winter coats and outerwear for private clients. Cashmere, wool, and timeless presence — by appointment." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Maison Nord — Winter Tailoring for the Quietly Distinguished" },
+      { name: "twitter:description", content: "Maison Nord crafts tailored winter coats and outerwear for private clients. Cashmere, wool, and timeless presence — by appointment." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/462d43ad-0dc7-407c-8be4-f34d34081d1c/id-preview-b897f64c--492d483c-143e-42e7-b76d-a202925c48e6.lovable.app-1778497118302.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/462d43ad-0dc7-407c-8be4-f34d34081d1c/id-preview-b897f64c--492d483c-143e-42e7-b76d-a202925c48e6.lovable.app-1778497118302.png" },
     ],
     links: [
       {
