@@ -171,11 +171,8 @@ function FloatingWord({
         color="#f0e6cf"
         anchorX="center"
         anchorY="middle"
-        font={
-          italic
-            ? "https://fonts.gstatic.com/s/cormorantgaramond/v16/co3YmX5slCNuHLi8bLeY9MK7whWMhyjornFLsS6V7w.woff"
-            : undefined
-        }
+        letterSpacing={italic ? 0.02 : 0.18}
+        fontStyle={italic ? "italic" : "normal"}
         material-toneMapped={false}
       >
         {text}
