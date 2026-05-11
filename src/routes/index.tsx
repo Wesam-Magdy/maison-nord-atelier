@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Cursor } from "@/components/maison/Cursor";
+import { Intro } from "@/components/maison/Intro";
 import { ScrollProgress } from "@/components/maison/ScrollProgress";
 import { Navbar } from "@/components/maison/Navbar";
 import { Hero } from "@/components/maison/Hero";
@@ -18,6 +19,7 @@ export const Route = createFileRoute("/")({
 function Index() {
   return (
     <div className="grain bg-background text-ivory min-h-screen overflow-x-hidden">
+      <Intro />
       <Cursor />
       <ScrollProgress />
       <Navbar />
